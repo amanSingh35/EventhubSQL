@@ -55,12 +55,14 @@ EventHub is a robust Event Management System developed as part of our final-year
     cd frontend->npm install
     cd api->npm install
 3. **Set up your .env file**
+   ```bash
     DB_HOST=localhost
     DB_USER=your-database-username
     DB_PASSWORD=your-database-password
     DB_NAME=your-database-name
     JWT_SECRET=your-jwt-secret
 4. **Running the application**
+    ```bash
     backend->npm start
     frontend->npm run dev
 
